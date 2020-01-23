@@ -1,0 +1,23 @@
+{
+  "name": "gopi-bot",
+  "version": "1.0.0",
+  "description": "Gopi's first Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "GopiBot"
+  },
+  "author": "Gurpreet Gill",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.8.6",
+    "nodemon": "^2.0.2",
+    "nthline": "^1.0.2"
+  }
+}
